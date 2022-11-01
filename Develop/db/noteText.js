@@ -46,7 +46,7 @@ class noteText {
     }
 
 
-    const newNote = { title, text, id: this.id };
+    const newNote = { title, text, id: ++this.id };
 
 
     return this.getNotes()
